@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact Me</title>
+</head>
+
+<body>
+  <h1>My Contact Details</h1>
+  <p><strong>My Fictional Address</strong></p>
+  <p><strong>Email:</strong>myemail@kozagroup.com</p>
+  <p><strong>Cellphone:</strong>+27 61 395 8724</p>
+  <hr>
+  <form class="" action="mailto:myemail@serviceprovider.com" method="post" enctype="text/plain"> <!-- this will redirect user to their default mail client, e.g OUtlook/Gmail. also, the 'enctype' attribute makes sure that the information submitted is displayed in plain text-->
+    <label>Your Name:</label>
+    <input type="text" name="yourName" value=""><br>
+    <label>Your Email:</label>
+    <input type="email" name="yourEmail" value=""><br> <!-- by specifying the type attribute to email we recieve validation checks on any emails inputed -->
+    <label>Your Message:</label><br>
+    <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+    <input type="submit" name="">
+  </form>
+</body>
+
+</html>
